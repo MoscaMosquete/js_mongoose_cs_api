@@ -18,9 +18,7 @@ class MapaController {
         const data = req.body
         const response = await Mapa.updateOne({ "_id": mapaId }, {
             $set: {
-                name: data.name,
-                latitude: data.latitude,
-                longitude: data.longitude
+                name: data.name
             }
         })
         return res.json(response)

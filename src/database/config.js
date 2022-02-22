@@ -1,3 +1,3 @@
 module.exports = {
-    uri: "mongodb://localhost:27017/db_js_mongoose_cs_api"
+    uri: "mongodb://10.5.4.239:27017/db_cs_prog3_2021_vinicius"
    };
